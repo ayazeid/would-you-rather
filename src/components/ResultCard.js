@@ -19,9 +19,9 @@ function  ResultCard(props){
         <div className='card-detials'>
         <div className='result-form'>
         <div className='result'>
-         <div id='optionOne' className={props.isVoted==="optionOne"&& "voted"}>{props.optionOne}</div>
+         <div id='optionOne' className={props.isVoted==="optionOne"? "voted": undefined}>{props.optionOne}</div>
          <span>{props.voteOne} of votes out of {props.totalVotes}</span>
-         <div id='optionTwo' className={props.isVoted==="optionTwo"&& "voted"}>{props.optionTwo}</div>
+         <div id='optionTwo' className={props.isVoted==="optionTwo"?"voted":undefined}>{props.optionTwo}</div>
          <span>{props.voteTwo} of votes out of {props.totalVotes}</span>
         </div>
       
