@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import QuestionList from './QuestionList';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
-
+import { connect } from 'react-redux';
 
 
 function Home(){
@@ -31,4 +31,4 @@ function Home(){
      </div>
     )
 }
-export default Home
+export default connect()(Home)

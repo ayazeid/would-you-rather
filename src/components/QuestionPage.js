@@ -3,7 +3,7 @@ import Question from './Question'
 import ResultCard from './ResultCard'
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
-import { setAuthedUser } from './../actions/authedUsers';
+
 
 
 
