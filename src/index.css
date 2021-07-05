@@ -1,0 +1,304 @@
+html {
+  box-sizing: border-box;
+
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+ 
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #23120B;
+  background-color: #fdfaf6;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+}
+.app{
+  background-color: #fdfaf6;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+  
+}
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+
+}
+.board{
+  margin: auto;
+  width: auto;
+  max-width: 520px;
+  border-radius: 2%;
+  background-color: #e4efe7;
+  background-image: url("https://www.transparenttextures.com/patterns/fake-luxury.png");
+}
+
+.btn {
+  text-transform: uppercase;
+  margin: 35px auto 15px auto;
+  padding: 10px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  background: #fff;
+  font-size: 14px;
+  width:300px;
+  position: relative;
+  
+ 
+}
+
+.btn:hover {
+  border-color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+
+.nav{
+  /* margin: auto 25% auto 25%; */
+  margin: auto;
+  display:flex;
+  text-decoration: none;
+  padding-left: 10%;
+  padding:auto;
+  background-color: #e4efe7;
+  background-image: url("https://www.transparenttextures.com/patterns/white-wall-3-2.png");
+  height: 80px;
+  font-weight:900;
+
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  
+ 
+  
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+.user-icons {
+  margin-left: auto;
+  padding-right: 10%;
+ 
+}
+
+/* for question card*/
+.card .question-card{
+   height: 200px;
+   border: 1px solid rgb(173, 33, 33);
+   
+}
+.card-heading{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(223, 212, 212);
+
+}
+.username-asking{
+  font-weight: bold;
+  margin-right:10px;
+  padding-right: 10px;
+
+}
+.card-content{
+  display: flex;
+  flex-direction: row;  
+  
+}
+.result-card-content{
+  display: flex;
+  flex-direction: column;  
+}
+.avatar-div{
+  padding:1em 0.3em 0 0;
+  margin:0 0 1em 0;
+  border-right: 1px solid rgb(173, 33, 33);
+}
+.avatar {
+  height: 80px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.avatar-icon{
+  height: 40px;
+  border-radius: 25px;
+  margin:3px;
+  padding-left: 0.5em;
+}
+.card-detials{
+  margin-left: 1em;
+  text-align: justify;
+}
+.question-form{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  text-align:left;
+}
+
+.question-form .btn{
+  margin-top: 0;
+  height: 2em;
+  padding-top: 0.5em;
+}
+.question-form p{
+  margin-top: 0;
+  margin-bottom: 0;
+
+
+}
+.result-form{
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.result div{
+border: 1px solid rgba(0, 0, 0, 0.37);
+margin: 1em 1em 1em 1em;
+padding: 1em 1em 1em 1em;
+border-radius: 0.2em;
+}
+
+.result .voted{
+  background-color: rgba(255, 0, 0, 0.295);
+  border:solid rgba(255, 0, 0, 0.281);
+  border-radius: 0.2em;
+}
+
+.result span{
+  color: #969696;
+  font-size: 12px;
+}
+.optians{
+  margin-bottom: 10px;
+}
+
+.optians input{
+  text-align: center;
+  margin: auto ;
+  width:90%;
+  position: relative;
+  display: flex;
+}
+.checkbox input{
+  width:15px;
+  margin-right: 5px;
+ display:inline;
+}
+.card{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px; 
+
+}
+.card-component{
+    background-color: #d8ac9c;
+  }
+
+/*user-card*/
+.user-card-detials{
+  margin-left: 1em;
+  max-height: 300px;
+
+}
+.score{
+  margin: auto;
+  width: 65px;
+  height: 90px;
+  border: 2px solid #E4EFE7 ;
+}
+.score h2{
+  margin: 2px 2px 2px 2px;
+  text-align: center;
+}
+.score hr{
+  width: 60px;
+  border: 2px solid #E4EFE7 ;
+}
+
+
+/*Login screen*/
+.login-card{
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.login-users select {
+  width: 80%;
+  height: 100%;
+  opacity: 100;
+  cursor: pointer;
+  background-color: #e4efe798;
+  margin-bottom: 15px;
+}
+
+.logout-btn{
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: inherit;
+  background-image: url('./utils/icons/logout.svg');
+  border: none;
+  width:20px;
+  position: relative;
+  height: 20px;
+ 
+}
+
+.login-btn{
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: inherit;
+  background-image: url('./utils/icons/login.svg');
+  border: none;
+  width:20px;
+  position: relative;
+  height: 20px;
+ 
+}
